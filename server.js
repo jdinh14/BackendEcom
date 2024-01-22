@@ -7,10 +7,10 @@ app.use(express.json());
 app.use(cors())
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    database: 'reagents',
-    user: 'root',
-    password: 'password'
+    host: 'sql5.freesqldatabase.com',
+    database: 'sql5678973',
+    user: 'sql5678973',
+    password: 'GnqlYWwcZ2'
 })
 
 app.get('/products', (req, res) => {
